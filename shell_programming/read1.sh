@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # there must be $before answer. Don't forget it !
-read -n1 -p "input y or n" answer
+read  -p "input y or n" answer
 case $answer in
 y|Y) 
 	echo "continue" ;;
